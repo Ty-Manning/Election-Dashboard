@@ -38,7 +38,7 @@ Before getting started, ensure you have the following installed:
 
 ```bash
 git clone https://github.com/Ty-Manning/election-dashboard.git
-cd election-news-bias-categorizer
+cd election-dashboard
 ```
 
 ### 2. Set Up Environment Variables
