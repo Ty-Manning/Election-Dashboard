@@ -1,0 +1,63 @@
+.second-page {
+    padding: 20px;
+    background-color: #121212;
+    color: white;
+  }
+  
+  .swing-states, .other-states {
+    margin-bottom: 20px;
+  }
+  
+  .state {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .toggle-switch button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .toggle-switch .active.left {
+    background-color: blue;
+    color: white;
+  }
+  
+  .toggle-switch .active.neutral {
+    background-color: purple;
+    color: white;
+  }
+  
+  .toggle-switch .active.right {
+    background-color: red;
+    color: white;
+  }
+  
+  .electoral-count {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .candidate {
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .candidate.harris {
+    background-color: blue;
+    color: white;
+  }
+  
+  .candidate.trump {
+    background-color: red;
+    color: white;
+  }
+  
+  .candidate.winner {
+    border: 2px solid gold;
+  }
+  

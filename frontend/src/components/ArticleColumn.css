@@ -1,0 +1,45 @@
+.article-column {
+    width: 32%;
+    max-height: 70vh;
+    overflow-y: auto;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .article-column h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .article {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .article a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .article .date {
+    display: block;
+    font-size: 0.8em;
+    color: #ccc;
+    margin-top: 5px;
+  }
+  
+  .remove-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: transparent;
+    border: none;
+    color: #ff4500;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
